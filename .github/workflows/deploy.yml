@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 cp index.html s3://hotd-frontend/
+          aws s3 cp index.php s3://hotd-frontend/
